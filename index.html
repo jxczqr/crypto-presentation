@@ -162,7 +162,7 @@
     <section class="slide">
       <h2>Где взять?</h2>
       <ul>
-        <li>Попросить у друга</li>
+        <li>Попросить у друга, мамы, брата</li>
       </ul>
       <img src="https://media.giphy.com/media/8DLFwME8d0hAQ/giphy.gif" alt="">
     </section>
@@ -390,5 +390,15 @@
     <!-- <div class="progress"></div> -->
     <script src="node_modules/@shower/core/dist/shower.js"></script>
     <!-- Copyright © 2022 Yours Truly, Famous Inc. -->
+
+    <script>
+      document.addEventListener("click", (evt) => {
+        console.log(evt.which)
+        
+        if (evt.which === 1) {
+          shower.next()
+        }
+      })
+    </script>
 </body>
 </html>
