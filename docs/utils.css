@@ -1,0 +1,56 @@
+.flex {
+  display: flex;
+}
+.flex.j-center {
+  justify-content: center;
+}
+.flex.j-between {
+  justify-content: space-between;
+}
+.flex.a-center {
+  align-items: center;
+}
+.gap-40 {
+  gap: 40px;
+}
+
+.slide .slide-title {
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.slide .slide-title.black {
+  color: #000;
+}
+
+.slide .h-full {
+  height: 80%;
+}
+.slide .font-bold {
+  font-weight: 600;
+}
+.slide .text-light {
+  color: #fff;
+}
+.slide .text-gray {
+  color: #eee;
+}
+.slide .fz-big {
+  font-size: 60px;
+}
+.slide .fz-normal {
+  font-size: 16px;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
